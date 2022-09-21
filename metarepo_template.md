@@ -1,20 +1,23 @@
 _your zenodo badge here_
 
-# lastname-etal_year_journal
+# Cooper-etal_year_journal
 
 **A long-term global energy-economic model of carbon dioxide release from fossil fuel use**
 
-Jae Edmonds<sup>1\*</sup> and John Reilly<sup>1</sup>
+Matthew G. Cooper<sup>1\*</sup> 
+Another Author<sup>2</sup>
 
-<sup>1 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, 1346 Connecticut Avenue, NW, Washington, DC 20036, USA
+<sup>1 </sup> Atmospheric Sciences and Global Change, Pacific Northwest National Laboratory, Richland, WA, USA
 
-\* corresponding author:  email@myorg.gov
+<sup>2 </sup> Other affiliation, Los Alamos National Laboratory, Los Alamos, NM, USA
+
+\* corresponding author:  matt.cooper@pnnl.gov
 
 ## Abstract
-In this paper the authors develop a long-term global energy-economic model which is capable of assessing alternative energy evolutions over periods of up to 100 years. The authors have sought to construct the model so that it can perform its assigned task with as simple a modelling system as possible. The model structure is fully documented and a brief summary of results is given.
+
 
 ## Journal reference
-Edmonds, J., & Reilly, J. (1983). A long-term global energy-economic model of carbon dioxide release from fossil fuel use. Energy Economics, 5(2), 74-88. DOI: https://doi.org/10.1016/0140-9883(83)90014-2
+Cooper, M.G., & Other, J. (YYYY). Title. Journal, 5(2), 74-88. DOI: https://doi.org/
 
 ## Code reference
 References for each minted software release for all code involved.  
@@ -32,10 +35,21 @@ Reference for each minted data source for your input data.  For example:
 
 Human, I.M. (2021). My input dataset name [Data set]. DataHub. https://doi.org/some-doi-number
 
+| Data | Source| Download website | Usage |
+|-------|---------|-----------------|-----|
+| River flowline | USGS National Hydrography Dataset | [USGS national map](https://apps.nationalmap.gov/viewer/) | Raw river flowline | 
+| Coastal line | USGS | [USGS national map](https://apps.nationalmap.gov/viewer/) | Coastal for the MPAS mesh | 
+
 ### Output data
 Reference for each minted data source for your output data.  For example:
 
 Human, I.M. (2021). My output dataset name [Data set]. DataHub. https://doi.org/some-doi-number
+
+| Data | Format| Content | Usage |
+|-------|---------|-----------------|-----|
+| Mesh | GeoJSON | The mesh file | Hydrology model | 
+| Conceptual river flowline | GeoJSON | The modeled river flowline | Hydrology model | 
+
 
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
