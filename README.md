@@ -32,10 +32,9 @@ To use it, do the following:
 1. Create the template repository as mentioned above in [Using the template](#using-the-template)
 2. Clone your new repository to your local machine
 3. Change directories into your new meta-repository directory you just cloned
-4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'removed metarepo README'`
-5. Run `git mv metarepo_template.md README.md` to rename `metarepo_template.md` as `README.md`
-6. Run `git add README.md` to stage the new file that will show up on load in your remote GitHub repository
-7. Run `git rm metarepo_template.md` to remove the original template
-8. Run `git commit -m 'set up new README by renaming metarepo_template as README'` to set the changes
-9. Run `git push` to send the changes to your remote GitHub repository
-10. Modify the `README.md` file to represent your experiement and use the `add`, `commit`, `push` workflow to update your remote repository
+4. Run `git rm README.md` to delete this file (`README.md`) 
+5. Commit that with `git commit -m 'removed metarepo template README'`
+6. Run `git mv metarepo_template.md README.md` to rename `metarepo_template.md` to `README.md`
+7. Commit that with `git commit -m 'set up new README by renaming metarepo_template to README'` 
+8. Run `git push` to send the changes to your remote GitHub repository
+9. Modify the `README.md` file to represent your experiement and use the `add`, `commit`, `push` workflow to update your remote repository
