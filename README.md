@@ -30,7 +30,7 @@ A sample meta-repository template is provided in this repository in the file `me
 
 To use it, do the following:
 1. Create the template repository as mentioned above in [Using the template](#using-the-template)
-2. Clone your new repository to you local machine
+2. Clone your new repository to your local machine
 3. Change directories into your new meta-repository directory you just cloned
 4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'removed metarepo README'`
 5. Run `git mv metarepo_template.md README.md` to rename `metarepo_template.md` as `README.md`
