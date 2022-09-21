@@ -1,5 +1,68 @@
-# sys files
+
+# -------------------
+# ---- mgc start ----
+# -------------------
+
+# Mac stuff
 .DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# External disks
+.Spotlight-*
+.Trashes
+
+# data stuff
+data/
+*.xlsx
+*.xlsb
+*.xls
+*.nc
+*.nc4
+*.h5
+*.hd5
+
+# private stuff
+private/
+todo.md
+TODO.md
+readmemgc.txt
+
+# temporary backups
+*.tmp
+*.bk
+*.archive
+*.keep
+*.old
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.zip
+*.tgz
+*.gz
+*.bzip
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# -------------------
+# ----- mgc end -----
+# -------------------
+
+
+
 
 # -----------------
 # ---- PYTHON -----
@@ -150,17 +213,21 @@ dmypy.json
 
 # make dependency files
 *.d
+
 # emacs backup files
 *~
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
+
 # Executables
 *.exe
 *.out
@@ -168,13 +235,16 @@ dmypy.json
 src/hector
 src/hector-ext
 src/hector-api
+
 # Hector logs
 logs/*.*
 *.log
+
 # OS-specific files
 .DS_Store
 .Trashes
 *.swp
+
 # Xcode build directories, schemes, and interface state
 *.lock
 *.xccheckout
@@ -184,6 +254,7 @@ DerivedData/
 xcodeuserstate
 xcuserdata
 project.xcworkspace/
+
 # Project files
 project_files/*.*
 Release
@@ -197,8 +268,10 @@ libs/
 *.kdev4
 *.sdf
 *.suo
+
 # Output
 output/output*
+
 # R
 .Rhistory
 R/batchrunner/*.pdf
